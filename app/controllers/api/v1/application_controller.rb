@@ -1,7 +1,7 @@
  module Api
   module V1
 class ApplicationController < ActionController::API
-
+   
   before_action :authenticate_request
     attr_reader :current_user
     
